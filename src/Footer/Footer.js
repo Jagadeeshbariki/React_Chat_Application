@@ -3,7 +3,7 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <div className='bg-primary'>
+    <div className='bg-primary footer'>
       <h2>&copy; By Jagadeesh</h2>
          <div>
 

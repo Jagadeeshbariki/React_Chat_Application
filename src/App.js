@@ -9,11 +9,11 @@ const App = () => {
   return (
     <div className='App row '>
       <Header/>   {/* Header Section */}
-      <div className='col-3'></div>
-      <div className='col-7'>
+      <div className='col-11 col-md-3'></div>
+      <div className='col-12 col-md-7'>
         <Chat/>
       </div>
-      <div className='col-2'>
+      <div className='col-11 col-md-2'>
 
       </div>
       <Footer/>
