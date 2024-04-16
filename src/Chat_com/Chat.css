@@ -1,0 +1,96 @@
+
+.chat-container {
+   
+    width: 400px;
+    margin: 10px auto;
+    border:5px #89b5e5 solid ;
+    height:620px;
+    width: 100%;
+    position: relative;
+  }
+  
+  .messages {
+   text-align: left;
+    margin-left: 80px;
+    height:530px;
+    overflow-y: scroll;
+   
+  }
+
+  .messages::-webkit-scrollbar {
+    width: 0; 
+    height: 0; 
+  }
+  
+  .message {
+    margin-bottom: 10px;
+    
+  }
+  
+  .like-btn {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .input-container {
+    margin-top: 20px;
+    position:sticky ;
+    width: 100%;
+    padding-top: 10px;
+    margin-bottom: 5px;
+    
+  }
+  
+  .input-container input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  
+    
+  }
+  
+  .input-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .input-container button:hover {
+    background-color: #0056b3;
+  }
+
+  .profile{
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: orange;
+    color: white;
+    text-align: center;
+  }
+  .message_like{
+    background-color: lightblue;
+    width: auto;
+    margin-top: 5px;
+    padding: 10px;
+    display: inline-block;
+    border-radius:0 20px  0 20px;
+  }
+
+  .Chat{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+
+  @media only screen and (max-width: 600px){
+  .messages{
+    margin-left: 10px;
+  }
+    
+  }
