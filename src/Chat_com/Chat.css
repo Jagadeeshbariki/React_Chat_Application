@@ -42,7 +42,7 @@
   }
   
   .input-container input {
-    width: 70%;
+    width: 80%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -87,10 +87,19 @@
     justify-content: space-between;
   }
 
+ 
+.emoji{
+  display: inline-block;
+  padding: 5px;
+}
 
   @media only screen and (max-width: 600px){
   .messages{
     margin-left: 10px;
+  }
+
+  .input-container input{
+      width: 50%;
   }
     
   }
