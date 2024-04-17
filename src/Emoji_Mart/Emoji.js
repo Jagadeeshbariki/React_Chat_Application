@@ -1,21 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import 'panta82-emoji-mart/css/emoji-mart.css'
 import { Picker } from 'panta82-emoji-mart';
 import { appStore } from '../Store/appStore';
 
 const Emoji = () => {
-    const [showPicker, setShowPicker] = React.useState(false)
-    const [selectedEmoji, setSelectedEmoji] = React.useState(null);
-    
+    const [showPicker, setShowPicker] = useState(false);
 
     const handleEmojiSelect =(emoji)=>{
-        setSelectedEmoji(emoji.native);
-
-
+       
         appStore.dispatch({
           type:"selectedEmoji",
-          payload:selectedEmoji
+          payload:emoji.native
         })
+
     }
     const fnClick=()=>{
         setShowPicker(showPicker? false: true)

@@ -1,3 +1,1 @@
-export const EmojiInit ={
-    Emoji:[]
-};
+export const EmojiInit = [];

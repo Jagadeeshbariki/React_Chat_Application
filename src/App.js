@@ -13,7 +13,7 @@ const App = () => {
       <Header/>   {/* Header Section */}
       <div className='col-11 col-md-3'></div>
       <div className='col-12 col-md-7'>
-        <Chat/>
+        <Chat/> {/* Chat section */}
       </div>
       <div className='col-11 col-md-2'>
 
